@@ -11,7 +11,7 @@ The recommendation engine is built upon three core pillars:
 2. **Search Space Partitioning (K-Means):** Partitions the geospatial tourism data into 3 distinct clusters (K=3). This ensures processing efficiency and mitigates the sparse-data elimination risk commonly found in density-based algorithms like DBSCAN.
 3. **Geospatial Filtering (Haversine Formula):** Acts as an absolute spatial constraint, deterministically trimming geographically infeasible destinations from the recommendation pool.
 
-**Fusion Weighting:** The tripartite ranking normalizes and fuses Semantic (40%), CF (40%), and Reputation (20%) scores, consistently achieving a Hit Rate @ 5 above 93.20%.
+**Fusion Weighting:** The tripartite ranking normalizes and fuses Semantic (40%), meta affinity (40%), and Reputation (20%) scores, consistently achieving a Hit Rate @ 5 above 93.20%.
 
 ## 📂 Repository Structure
 
