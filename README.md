@@ -16,7 +16,7 @@ The recommendation engine is built upon three core pillars:
 ## 📂 Repository Structure
 
 *   `Tourism_Data.csv`: The raw dataset (85 MB) scraped from Google Maps, containing 5,717 entities. Features include place name, coordinates, user reviews, ratings, and facility metadata.
-*   `Tourist_Attraction.ipynb`: The primary Jupyter Notebook containing the data pipeline, preprocessing (RobustScaler, IQR), K-Means clustering execution, IndoSBERT encoding, and the final hybrid inference logic.
+*   `Tourist_Attraction.ipynb`: The primary Jupyter Notebook containing the data pipeline, preprocessing (RobustScaler, IQR), K-Means clustering execution, multilingualBERT encoding, and the final hybrid inference logic.
 
 ## 🚀 Execution Guide
 
