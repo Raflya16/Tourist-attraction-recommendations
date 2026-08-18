@@ -7,7 +7,7 @@ This repository contains the architecture, dataset, and inference logic for a ge
 ## 🧠 System Architecture
 
 The recommendation engine is built upon three core pillars:
-1. **Semantic NLP (IndoSBERT):** Replaces rigid TF-IDF with `paraphrase-multilingual-MiniLM-L12-v2` to map user queries into a high-dimensional dense vector space, enabling bidirectional semantic context understanding and resolving lexical mismatches.
+1. **Semantic NLP (multilingualBERT):** Replaces rigid TF-IDF with `paraphrase-multilingual-MiniLM-L12-v2` to map user queries into a high-dimensional dense vector space, enabling bidirectional semantic context understanding and resolving lexical mismatches.
 2. **Search Space Partitioning (K-Means):** Partitions the geospatial tourism data into 3 distinct clusters (K=3). This ensures processing efficiency and mitigates the sparse-data elimination risk commonly found in density-based algorithms like DBSCAN.
 3. **Geospatial Filtering (Haversine Formula):** Acts as an absolute spatial constraint, deterministically trimming geographically infeasible destinations from the recommendation pool.
 
